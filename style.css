@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:global {
+  /* Verdes */
+  --color-forest:     #0D2818;
+  --color-deep-green: #1A4A2E;
+  --color-mid-green:  #2D6B45;
+  --color-light-green:#4A9B6A;
+
+  /* Neutros */
+  --color-cream:      #E8E4D4;
+  --color-cream-mid:  #D4CEBC;
+  --color-beige:      #B8AA88;
+  --color-gold-dark:  #8A7A56;
+  --texto: #F2F0E8;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--creme);
+    color: var();
+    font-family: var(--texto);
+}
